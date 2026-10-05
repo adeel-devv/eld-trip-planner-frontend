@@ -6,6 +6,6 @@ export default defineConfig({
   plugins: [react()],
   server: {
     // In development the Django API runs on :8000; in production set VITE_API_URL.
-    proxy: { '/api': 'http://localhost:8000' },
+    proxy: { '/api': 'https://eld-trip-planner-backend-six.vercel.app' },
   },
 })
